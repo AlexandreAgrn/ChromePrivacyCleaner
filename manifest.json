@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+
+	"name": "Chrome Privacy Cleaner",
+	"description": "This extension clean your privacy when you execute it.",
+	"version": "1.0",
+
+	"icons": { 
+		"16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png" 
+   	},
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Chrome Privacy Cleaner"
+	},
+
+	"permissions": [
+		"activeTab", 
+		"storage",
+		"browsingData"
+	],
+
+	 "author": "AlexandreAgrn"
+}
